@@ -1,0 +1,29 @@
+
+@import "variables.scss";
+
+
+
+
+    
+   /* ------------------ Footer --------------------- */
+.footer {
+    margin-top: auto;
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align:center;
+    font-size: 14px;
+    background: $colorFooter;
+        img{
+        width: 35px;
+        padding: 5px;
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
+.contacto p {
+
+    text-align: start;
+    justify-content: center;
+
+}
