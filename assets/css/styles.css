@@ -1,3 +1,4 @@
+/*------Map-Get-------*/
 /*------------- Navbar---------------*/
 .navbar {
   background-color: #b4c4dd;
@@ -43,6 +44,7 @@
     color: white;
   }
 }
+/*------Map-Get-------*/
 /* ------------------ Footer --------------------- */
 .footer {
   margin-top: auto;
@@ -65,6 +67,23 @@
   justify-content: center;
 }
 
+/*------Map-Get-------*/
+.boton, .boton--dinero {
+  width: auto;
+  background-color: #b4c4dd;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.boton--dinero {
+  padding: 8px;
+  color: rgb(33, 17, 124);
+}
+
+/*------Map-Get-------*/
 * {
   margin: 0;
   padding: 0;
@@ -72,7 +91,7 @@
 
 .card {
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .carrusel {
@@ -175,6 +194,26 @@
 
 .form {
   width: 50%;
+}
+
+/*Creamos el bucle para usar los valores del mapa*/
+.btntarjeta1 {
+  background-color: #c8d5e0;
+}
+
+.btntarjeta2 {
+  background-color: #b2b9c9;
+}
+
+.btntarjeta3 {
+  background-color: #aaa9c5;
+}
+
+/*------Map-Get-------*/
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 body {
